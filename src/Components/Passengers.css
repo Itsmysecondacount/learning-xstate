@@ -1,29 +1,41 @@
 .Passengers {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 8px;
 }
 
 .Passengers input {
-  font-size: 1rem;
-  margin: 16px 0;
-  border-radius: 8px;
-  padding: 8px;
-  border: none;
-  width: 100%;
-  box-sizing: border-box;
+	font-size: 1rem;
+	margin: 16px 0;
+	border-radius: 8px;
+	padding: 8px;
+	border: none;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 .Passengers-buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  width: 100%;
-  margin-top: 8px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	width: 100%;
+	margin-top: 8px;
 }
 
 .Passengers-title {
-  margin-bottom: 16px;
+	margin-bottom: 16px;
+}
+
+.disable-passenger {
+	background-color: rgb(134, 67, 129);
+	opacity: 40%;
+	cursor: auto;
+}
+
+.disable-passenger:hover {
+	background-color: rgb(134, 67, 129);
+	opacity: 40%;
+	cursor: auto;
 }
